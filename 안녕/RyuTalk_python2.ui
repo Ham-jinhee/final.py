@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>503</width>
+    <height>705</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>521</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Desktop/back3.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>64</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IP</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="chats">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>461</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QListView
+{
+    background-color:  rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PORT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_send">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>640</y>
+     <width>81</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	font: 11pt &quot;맑은 고딕&quot;;
+	color: rgb(255, 255, 255);
+    background-color: rgb(245, 218, 43);
+	border: 0px;
+	border-radius: 10px;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>입력</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_connect">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>130</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	font: 11pt &quot;맑은 고딕&quot;;
+	color: rgb(255, 255, 255);
+    background-color: rgb(245, 218, 43);
+	border: 0px;
+	border-radius: 10px;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>연결</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="input_message">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>630</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextBrowser
+{
+    background-color:  rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="input_ip">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextBrowser
+{
+    background-color:  rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="input_port">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>80</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextBrowser
+{
+    background-color:  rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
